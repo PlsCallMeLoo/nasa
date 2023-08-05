@@ -20,7 +20,7 @@ function atualizar(data)
 
 function fazerRequisicao() {
     console.log("2")
-    const url = ip + "/getchat";
+    const url = ip;
 
     // Fazendo a solicitação usando a função fetch()
     fetch(url)
