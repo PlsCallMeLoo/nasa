@@ -3,7 +3,7 @@ document.addEventListener("turbolinks:load", function() {
   });
 
 
-  const ip = "13.51.6.135:8080"
+  const ip = "amora"
 
 
 function atualizar(data)
@@ -20,7 +20,7 @@ function atualizar(data)
 
 function fazerRequisicao() {
     console.log("2")
-    const url = ip;
+    const url = "/getchat";
 
     // Fazendo a solicitação usando a função fetch()
     fetch(url)
