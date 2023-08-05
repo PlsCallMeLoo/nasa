@@ -3,6 +3,8 @@ document.addEventListener("turbolinks:load", function() {
   });
 
 
+  const ip = "13.51.6.135"
+
 
 function atualizar(data)
 {
@@ -18,7 +20,7 @@ function atualizar(data)
 
 function fazerRequisicao() {
     console.log("2")
-    const url = 'http://localhost:3000/getchat';
+    const url = ip + "/getchat";
 
     // Fazendo a solicitação usando a função fetch()
     fetch(url)
