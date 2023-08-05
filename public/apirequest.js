@@ -3,7 +3,7 @@ document.addEventListener("turbolinks:load", function() {
   });
 
 
-  const ip = "13.51.6.135"
+  const ip = "13.51.6.135:8080"
 
 
 function atualizar(data)
