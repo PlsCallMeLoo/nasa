@@ -4,13 +4,15 @@ import bodyParser from "body-parser";
 import fs from "fs"
 
 const app = express();
-const port = 3000;
+const port = 3001
+;
 
 app.use(express.static("public"))
 app.use(express.urlencoded({ extended: true }))
 
 app.get("/", (req, res) => {
   res.render("index.ejs", { content: "API Response." });
+  console.log("user connected")
 
 });
 
